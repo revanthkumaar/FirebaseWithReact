@@ -7,18 +7,15 @@ export default function LoginScreen() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-
   //functions
 
   const onFooterLinkPress = () => {
-    console.log('clicked on dont have account')
-  }
+    console.log('clicked on dont have account');
+  };
 
   const onLoginPress = () => {
-    console.log('clicked on login button')
-  }
-
-
+    console.log('clicked on login button');
+  };
 
   //html render
 
