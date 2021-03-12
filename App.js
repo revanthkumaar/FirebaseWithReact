@@ -6,6 +6,7 @@ import {LoginScreen, HomeScreen, RegistrationScreen} from './src/screens';
 
 export default function App() {
   const [user, setUser] = useState(null);
+  const [loading,setLoading] = useState(null);
 
   return (
     <NavigationContainer>
