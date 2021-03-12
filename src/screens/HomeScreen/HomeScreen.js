@@ -6,7 +6,7 @@ export default function HomeScreen(props) {
 
     return(
         <View>
-            <Text>Home Screen</Text>
+            <Text>Welcome, {props.name}</Text>
         </View>
     )
 }
