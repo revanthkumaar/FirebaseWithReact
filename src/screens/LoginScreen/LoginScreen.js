@@ -10,7 +10,7 @@ export default function LoginScreen() {
   //functions
 
   const onFooterLinkPress = () => {
-    console.log('clicked on dont have account');
+    navigation.navigate('Registration')
   };
 
   const onLoginPress = () => {
