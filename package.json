@@ -10,14 +10,19 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-community/masked-view": "^0.1.10",
     "@react-native-firebase/app": "^11.0.0",
     "@react-navigation/native": "^5.9.3",
     "hammerjs": "^2.0.8",
     "react": "16.13.1",
     "react-gesture-handler": "0.0.5",
     "react-native": "0.63.4",
-    "react-native-gesture-handler": "^1.3.0",
-    "react-native-keyboard-aware-scroll-view": "^0.9.3"
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-keyboard-aware-scroll-view": "^0.9.3",
+    "react-native-reanimated": "^2.0.0",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-screens": "^2.18.1",
+    "react-navigation": "^4.4.4"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
